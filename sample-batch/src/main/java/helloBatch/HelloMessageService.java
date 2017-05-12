@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class HelloMessageService {
 
     public String getMessage() {
-        return getMessage("Hello Batch");
+        return getMessage("Batch");
     }
 
     public String getMessage(String name) {
